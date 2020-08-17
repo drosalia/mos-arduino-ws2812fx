@@ -5,6 +5,8 @@
 #if defined(ESP8266) || defined(ESP32)
 
 #include <Arduino.h>
+#include <driver/gpio.h>
+
 #ifdef ESP8266
 #include <eagle_soc.h>
 #endif
